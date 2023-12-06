@@ -3,6 +3,11 @@ html {
   }
 
 /* Header Part CSS */
+nav {
+    background-color: black;
+    border-radius: 5px;
+}
+
 .container{
     width:100%;
     margin-left: auto;
@@ -28,13 +33,14 @@ div {
 .logo {
     display: flex!important;
     margin-top: 5px;
+    margin-bottom: 5px;
     margin-right: auto;
     margin-left: 2px;
     padding: 10px 10px;
     font-weight: bold;
     font-size: 1.5rem;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     border-radius: 20px;
 }
 
@@ -44,7 +50,9 @@ div {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    color: white;
     font-size: 1.15rem;
+    
 }
 
 .nav-item{
@@ -55,10 +63,14 @@ div {
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* Body Part CSS */
+#profile-pic{
+    border-radius: 50%;
+}
+
 .profile-title{
     display: inline-block;
     font-size: 3.5rem;
@@ -175,7 +187,8 @@ div {
 }
 .img-fluid {
     max-width: 100%;
-    height: 400px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
